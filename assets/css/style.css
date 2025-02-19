@@ -1,0 +1,123 @@
+/*
+Theme Name: Uncode Child Game
+Description: Child theme for Uncode theme
+Author: Undsgn™
+Author URI: jnarvaez
+Template: uncode
+Version: 1.0.0
+Text Domain: uncode
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+#canvas {
+    width: 336px;
+    height: 333px;
+    /*border: 1px solid gray;
+    background-color: black;*/
+    border: 1px solid white;
+    background-color: hsl(214deg 85% 21%);
+  }
+  #canvas #windiv {
+    display: none;
+  }
+  #canvas .banner {
+    width: 370px;
+    font-size: 39px;
+    background-color: #f5f5dc;
+    position: relative;
+    text-align: center;
+    top: -60px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.55);
+    left: -15px;
+    z-index: 2;
+	padding: 5px;
+  }
+  #canvas .innerSquare {
+    width: 110px;
+    height: 110px;
+    float: left;
+  }
+  #canvas .innerSquare.imageSquare {
+    font-size: 24px;
+    text-align: center;
+    /*border: 1px outset black;*/
+    border: 1px outset hsl(214deg 85% 21%);
+    border-radius: 6px;
+  }
+  #canvas .innerSquare.imageSquare:hover {
+    background-color: lightgray;
+  }
+  #canvas .innerSquare.clickable:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+  }
+
+  .clickable{
+    cursor: pointer;
+  }
+
+  #canvas .innerSquare.blank {
+    /*border: 1px inset black;*/
+    border: 1px inset hsl(214deg 85% 21%);
+    background: #03123a;
+  }
+  
+  #previews {
+    /*width: 308px;
+    height: 100px;
+    background-color: lightgrey;
+    overflow: scroll;
+    padding-left: 30px;
+    margin-top: 10px;*/
+    width: 336px;
+    height: auto;
+    /*background-color: lightgrey;*/
+    max-width: 336px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    position: relative;
+    text-align: center;
+  }
+  #previews .mini {
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    /*margin-right: 5px;*/
+    margin-right: 7px;
+    margin-left: 7px;
+    border: 1px solid #bbbbbb;
+  }
+  #puzzle-ini{
+    max-width: 336px;
+    background-color: hsl(214deg 85% 21%);
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0.25em 1em 0 rgb(0 0 0 / 90%), inset 0.25em 0.25em 1em 0 hsl(216deg 82% 29%), inset 0.15em 0.15em 0.2em 0 hsl(224deg 72% 37%), inset -0.25em -0.25em 1em 0 hsl(230deg 84% 17%), inset -0.15em -0.15em 0.2em 0 hsl(0deg 88% 2%);
+  }
+  .cronometer-row{
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: #daf6ff;
+    text-shadow: 0 0 20px #0aafe6, 0 0 20px rgb(10 175 230 / 0%);
+  }
+  .move{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  .banner{
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: #daf6ff;
+    text-shadow: 0 0 20px #0aafe6, 0 0 20px rgb(10 175 230 / 0%);
+    background-color: #082e63 !important;
+  }
+  
+  
