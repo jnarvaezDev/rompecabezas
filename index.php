@@ -54,7 +54,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <?php
+                                    <?php
                                         $points = 13;
                                         for ($i = 13; $i <= 26; $i++) {
                                             if ($points < 1) {
@@ -72,15 +72,6 @@
             </div>
         </div>
     </div>
-
-
-    <article id="post-" class="">
-        <div class="post-wrapper">
-            <div class="post-body">
-
-            </div>
-        </div>
-    </article>
 </body>
 
 </html>
